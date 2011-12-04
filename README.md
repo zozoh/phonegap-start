@@ -1,6 +1,6 @@
-PhoneGap-Start
+DKN's Questionnaires
 ---
 
-A starting point for PhoneGap apps.
+DKN's questionnaires app.
 
-To get started: fork this repo, modify the config.xml to match your details, and get building!
+Just a group of question to show DKN's products features to their end users.

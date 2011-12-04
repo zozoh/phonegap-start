@@ -1,63 +1,197 @@
-<!doctype html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-	<head>
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
-		<title>Training App</title>
-		<link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
-		
-		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/xui.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/LawnchairAdaptorHelpers.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/DOMStorageAdaptor.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/WebkitSQLiteAdaptor.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/Lawnchair.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/dsl.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
-		
-	</head>
-	<body>
- 		<div id="title_bar">Phone<strong>Gap</strong> Training App</div>
-
-		<div id="welcome" class="view">
-		  <div class="app_button" id="map_button">Show My Location</div>
-  	      <div class="app_button" id="settings_button">Settings</div>
-		</div>
-
-		<div id="map" class="view">
-		  <div class="map_image">
-              <img id="static_map" src="assets/img/staticmap.png">
-		  </div>
-		  <p>This is where you are</p>
-		  <div class="app_button" id="welcome_button">Go Back</div>
-		</div>
-
-		<div id="settings" class="view">
-		  <form id="settings_form">
-		    <fieldset>
-		      <legend>Map Type</legend>
-			  <input type="radio" name="map" value="roadmap" checked>Road Map<br/>
-		      <input type="radio" name="map" value="satellite">Satellite<br/>
-		      <input type="radio" name="map" value="terrain">Terrain<br/>
-		      <input type="radio" name="map" value="hybrid">Hybrid<br/>
-		    </fieldset>
-		    <fieldset>
-		      <legend>Zoom Level</legend>
-  		      <input type="radio" name="zoom" value="10">Super Far<br/>
-  		      <input type="radio" name="zoom" value="12">Far<br/>
-  		      <input type="radio" name="zoom" value="15" checked>Normal<br/>
-  		      <input type="radio" name="zoom" value="18">Close<br/>
-  		      <input type="radio" name="zoom" value="20">Super Close<br/>
-  		     </fieldset>
-		      <button id="save_button">Save</button>
-	      </form>
-		</div>
-
-	</body>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>达克宁</title>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/css.css"/>
+<script language="JavaScript" src="assets/js/jquery.js"></script>
+<script language="JavaScript" src="assets/js/all.js"></script>
+</head>
+<body>
+<div class="masker"><div class="scroller">
+    <section class="entry">
+        <a class="btn">点击进入</a>
+    </section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4" msg="ABCD"><div class="ques_body">
+        <h3>您会洗脸吗？以下洗脸的方法哪些是正确的？</h3>
+        <ul>
+            <li><i></i> A.洗脸时轻轻搓擦，不仅能够促进血液循环，增强新陈代谢，还可以改善皮肤张力，并使之得到滋润</li>
+            <li><i></i> B.搓擦时应注意要自下而上，由中央向外部顺着肌肉生长的方向均匀用力。</li>
+            <li><i></i> C.先用温水湿润面部皮肤，将洗面奶涂在前额、鼻部、下巴及两颊处，然后均匀抹开，用指腹在面部打圈揉洗皮肤，用清水将洗面奶清洗干净。</li>
+            <li><i></i> D.洗脸水应选择40℃左右的温水。温水洗净之后，可以将冷水拍到脸上，使面部温度降低，毛孔收缩，以增强皮肤的弹性</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="2" msg="B"><div class="ques_body">
+        <h3>洗脸一天几次最为科学？</h3>
+        <ul>
+            <li><i></i> A.1次</li>
+            <li><i></i> B.2次</li>
+            <li><i></i> C.3次以上</li>
+        </ul>
+        <a class="btn">确认</a>
+        <div class="ques_tip">
+        一般早晚各一次是最好的，因为脸上的油脂也是肌肤的一个保护层，所以过多的次数也会无形中伤害肌肤。
+        </div>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4" msg="ABCD"><div class="ques_body">
+        <h3>VVC的典型症状有:</h3>
+        <ul>
+            <li><i></i> A.外阴瘙痒</li>
+            <li><i></i> B.阴道灼痛</li>
+            <li><i></i> C.性交痛、尿痛</li>
+            <li><i></i> D.阴道分泌物异常</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4" msg="ABCD"><div class="ques_body">
+        <h3>达克宁® （硝酸咪康唑栓/阴道软胶囊）的多重作用机制是:</h3>
+        <ul>
+            <li><i></i> A.破坏真菌细胞膜，抑制真菌生长</li>
+            <li><i></i> B.引发过氧化物蓄积，导致真菌死亡</li>
+            <li><i></i> C.抑制真菌菌丝生长，降低真菌侵袭力</li>
+            <li><i></i> D.独特的抗真菌后效应，抑菌作用持久</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4,5" msg="ABCDE"><div class="ques_body">
+        <h3>下面哪些说法是正确的？</h3>
+        <ul>
+            <li><i></i> A.咪康唑阴道软胶囊1200mg是中华医学会妇产科分会感染协作组VVC指南（2011）中推荐的一线用药</li>
+            <li><i></i> B.咪康唑具有多重的作用机制，真正杀真菌，作用更持久</li>
+            <li><i></i> C.咪康唑具有抗真菌谱广、敏感度高的特点</li>
+            <li><i></i> D.咪康唑1200 mg工艺独特，深入高效杀菌，耐受性更好</li>
+            <li><i></i> E.咪康唑1200 mg临床治愈率高于克霉唑，复发率低于克霉唑</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="2" msg="B"><div class="ques_body">
+        <h3>乳液、精华、爽肤水的正确顺序？</h3>
+        <ul>
+            <li><i></i> A.乳液、精华、爽肤水</li>
+            <li><i></i> B.爽肤水、精华、乳液</li>
+            <li><i></i> C.没有特别的顺序，都可</li>
+        </ul>
+        <a class="btn">确认</a>
+        <div class="ques_tip">
+        护肤的顺序要按照从分子小的向分子大的度过。
+        分子小的肌肤才会更容易被吸收，所以护肤一定要按照自己的正确顺序，否则乱用的话根本起不到护肤的效果。
+        </div>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1" msg="A"><div class="ques_body">
+        <h3>我今天只擦了防晒产品，还需要卸妆吗？</h3>
+        <ul>
+            <li><i></i> A.需要</li>
+            <li><i></i> B.不需要</li>
+        </ul>
+        <a class="btn">确认</a>
+        <div class="ques_tip">
+        我们脸部的肌肤是非常脆弱的，所以我们每天都需要卸妆。而因为防晒产品中含有SPF，而只要含有SPF的产品都是需要卸妆的。
+        </div>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3" msg="ABC"><div class="ques_body">
+        <h3>达克宁® 1200mg中新加的成分卵磷脂有什么作用？</h3>
+        <ul>
+            <li><i></i> A.深入杀菌 --卵磷脂使抗菌药物具有了亲脂亲水的双亲活性，极大的增加了药物渗透力，可杀灭阴道上皮深层的病原菌。</li>
+            <li><i></i> B.高效杀菌 --卵磷脂可降低药物在阴道上皮的表面张力，形成稳定的药物膜，从而保证阴道上皮组织内有持续较高的药物浓度，高效持久杀菌。</li>
+            <li><i></i> C.耐受性更好--卵磷脂将药物包封在内,游离药物少，对黏膜的刺激性显著下降，耐受性更好。</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4,5,6" msg="ABCDEF"><div class="ques_body">
+        <h3>您认为达克宁®（硝酸咪康唑阴道软胶囊1200mg）的优势有</h3>
+        <ul>
+            <li><i></i> A.杀真菌药，临床治愈率高</li>
+            <li><i></i> B.有抗真菌后效应，作用持久，复发率低 </li>
+            <li><i></i> C.外壳仅0.2mm厚，5分钟阴道内破裂</li>
+            <li><i></i> D.软胶囊迅速崩解后，内含的液态1200mg硝酸咪康唑迅速布满阴道全段</li>
+            <li><i></i> E.一日快速缓解症状</li>
+            <li><i></i> F.使用方便舒适</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4" msg="ABCD"><div class="ques_body">
+        <h3>关于VVC再发 （根据中华医学会妇产科分会感染协作组VVC指南（2011））下面哪些说法是正确的？</h3>
+        <ul>
+            <li><i></i> A.曾经有过VVC，再次确诊发作，由于1年内发作次数达不到  4次，不能诊断为复发性VVC，称为VVC再发。</li>
+            <li><i></i> B.对于这类VVC，尚无明确分类，建议仍按照症状体征评分，分为单纯性VVC或重度VVC。</li>
+            <li><i></i> C.治疗上，建议根据此次发作严重程度，按照单纯性VVC或 重度VVC治疗，可以适当在月经后巩固1~2疗程。</li>
+            <li><i></i> D.要重视对这类患者的好发因素的寻找及去除。</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4,5,6,7" msg="ABCDEFG"><div class="ques_body">
+        <h3>您会洗头吗？下面哪些洗头的方法是正确的？</h3>
+        <ul>
+            <li><i></i> A.洗发水一定要在手心打泡沫；</li>
+            <li><i></i> B.不要把头发堆在头顶揉洗，应从上至下捋头发清洗；</li>
+            <li><i></i> C.平时多用一分力揉头皮才能防掉发；</li>
+            <li><i></i> D.洗加护绝对不分离；</li>
+            <li><i></i> E.用护发素前一定擦干头发；</li>
+            <li><i></i> F.迅速吹干头皮，减少热风伤害；</li>
+            <li><i></i> G.洗发时水温要由高到低。</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4" msg="ABCD"><div class="ques_body">
+        <h3>您会防晒吗？下面哪些说法是正确的？</h3>
+        <ul>
+            <li><i></i> A.SPF是防晒系数（又叫防晒系指数,Sun Protection Factor）的英文缩写，表明防晒用品所能发挥的防晒效能的高低。</li>
+            <li><i></i> B.SPF值越高，防护时效越长。一般人没有任何防备地站在阳光下面暴晒，15分钟皮肤开始出现红斑，如果你选择的是SPF20的防晒霜，你在日晒下的安全时间就是15×20=300分钟.</li>
+            <li><i></i> C.在办公室里工作的白领，只要使用SPF15至SPF25的防晒霜就足够了</li>
+            <li><i></i> D.外出办事、逛街和休闲旅游时，最好选用SPF30以上的防晒品</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3,4,5" msg="ABCDE"><div class="ques_body">
+        <h3>在临床上治疗VVC，应如何分类：</h3>
+        <ul>
+            <li><i></i> A.分为单纯性VVC，复杂性VVC。</li>
+            <li><i></i> B.单纯性VVC是指正常非孕宿主发生的、散发、由白假丝酵母菌所致的轻或中度VVC。</li>
+            <li><i></i> C.复杂性VVC包括：复发性VVC、重度VVC、妊娠期VVC、非白假丝酵母菌所致的VVC或宿主为未控制的糖尿病、免疫低下者。</li>
+            <li><i></i> D.重度VVC是指临床症状严重，外阴或阴道皮肤粘膜有破损，按VVC评分标准，评分7分为重度VVC。</li>
+            <li><i></i> E.复发性VVC是指有症状性VVC发作4次或4次以上。</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="1,2,3" msg="ABC"><div class="ques_body">
+        <h3>关于妊娠期VVC用药下面哪些说法是正确的:</h3>
+        <ul>
+            <li><i></i> A.推荐唑类药物局部7日疗法，禁用口服药 </li>
+            <li><i></i> B.FDA已取消妊娠用药的字母分类，依照说明书描述为准 </li>
+            <li><i></i> C.目前VVC外用药物的说明书没有一个是“可以安全使用的”，医生存在潜在风险，所以与患者的沟通至关重要，同时参照指南</li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="ques" answer="4" msg="D"><div class="ques_body">
+        <h3>对于复发性VVC，您使用硝酸咪康唑1200mg的治疗疗程是:</h3>
+        <ul>
+            <li><i></i> A.一个疗程 </li>
+            <li><i></i> B.两个疗程 </li>
+            <li><i></i> C.三个疗程 </li>
+            <li><i></i> D.强化治疗3个疗程(第1，4，7天应用)+巩固疗程6个月（每月1个疗程） </li>
+        </ul>
+        <a class="btn">确认</a>
+    </div></section>
+    <!--//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <section class="finished">
+        <a class="btn">重新开始</a>
+    </section>
+</div></div>
+</body>
 </html>
